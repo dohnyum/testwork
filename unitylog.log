@@ -1,0 +1,1488 @@
+[HandleName]:妙答2.2.2
+[Version]:2.2.2
+[GUID]:ef4141eefb0fe144892eb6b9358e089b
+[UnityVersion]:2020.3.42f1c1
+[Time]:2026/05/11 11:40:46
+
+
+[Time]:2026/05/11 11:40:46
+[Type]:Log
+启动日志反馈系统
+[Stack trace]:Model.LogToFile:StartHandleLog()
+
+[Time]:2026/05/11 11:40:46
+[Type]:Log
+缓存版本：2
+[Stack trace]:ClearCacheNamespace.ClearCacheUiConn:<InitData>b__3_0(String)
+System.Action`1:Invoke(T)
+Model.<LoadJsonTxt>d__7:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:46
+[Type]:Log
+当前使用的是ILRuntime模式
+[Stack trace]:Model.Hotfix:CreateHotFixAssembly(Byte[], Byte[])
+Model.<LoadHotfixAssembly>d__23:MoveNext()
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+Model.<LoadHotfixAsync>d__32:MoveNext()
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:51
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:UnityEngine.EventSystems.EventSystem.UpdateModules () (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.BaseInputModule.OnDisable () (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Generated.UnityEngine_GameObject_Binding.SetActive_7 (ILRuntime.Runtime.Intepreter.ILIntepreter __intp, ILRuntime.Runtime.Stack.StackObject* __esp, System.Collections.Generic.IList`1[T] __mStack, ILRuntime.CLR.Method.CLRMethod __method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate.Invoke (ILRuntime.Runtime.Intepreter.ILIntepreter intp, ILRuntime.Runtime.Stack.StackObject* esp, System.Collections.Generic.IList`1[T] mStack, ILRuntime.CLR.Method.CLRMethod method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Execute (ILRuntime.CLR.Method.ILMethod method, ILRuntime.Runtime.Stack.StackObject* esp, System.Boolean& unhandledException) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Run (ILRuntime.CLR.Method.ILMethod method, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.AppDomain.Invoke (ILRuntime.CLR.Method.IMethod m, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo.Invoke (ILRuntime.Runtime.Intepreter.ILTypeInstance instance) (at <00000000000000000000000000000000>:0)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine] (TStateMachine& stateMachine) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding.Start_1 (ILRuntime.Runtime.Intepreter.ILIntepreter __intp, ILRuntime.Runtime.Stack.StackObject* __esp, System.Collections.Generic.IList`1[T] __mStack, ILRuntime.CLR.Method.CLRMethod __method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate.Invoke (ILRuntime.Runtime.Intepreter.ILIntepreter intp, ILRuntime.Runtime.Stack.StackObject* esp, System.Collections.Generic.IList`1[T] mStack, ILRuntime.CLR.Method.CLRMethod method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Execute (ILRuntime.CLR.Method.ILMethod method, ILRuntime.Runtime.Stack.StackObject* esp, System.Boolean& unhandledException) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Execute (ILRuntime.CLR.Method.ILMethod method, ILRuntime.Runtime.Stack.StackObject* esp, System.Boolean& unhandledException) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Run (ILRuntime.CLR.Method.ILMethod method, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.AppDomain.Invoke (ILRuntime.CLR.Method.IMethod m, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo.Invoke (ILRuntime.Runtime.Intepreter.ILTypeInstance instance) (at <00000000000000000000000000000000>:0)
+System.Threading.ContextCallback.Invoke (System.Object state) (at <00000000000000000000000000000000>:0)
+System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) (at <00000000000000000000000000000000>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () (at <00000000000000000000000000000000>:0)
+System.Action.Invoke () (at <00000000000000000000000000000000>:0)
+System.Threading.ContextCallback.Invoke (System.Object state) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.Task.FinishContinuations () (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) (at <00000000000000000000000000000000>:0)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding.SetResult_5 (ILRuntime.Runtime.Intepreter.ILIntepreter __intp, ILRuntime.Runtime.Stack.StackObject* __esp, System.Collections.Generic.IList`1[T] __mStack, ILRuntime.CLR.Method.CLRMethod __method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate.Invoke (ILRuntime.Runtime.Intepreter.ILIntepreter intp, ILRuntime.Runtime.Stack.StackObject* esp, System.Collections.Generic.IList`1[T] mStack, ILRuntime.CLR.Method.CLRMethod method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Execute (ILRuntime.CLR.Method.ILMethod method, ILRuntime.Runtime.Stack.StackObject* esp, System.Boolean& unhandledException) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Run (ILRuntime.CLR.Method.ILMethod method, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.AppDomain.Invoke (ILRuntime.CLR.Method.IMethod m, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo.Invoke (ILRuntime.Runtime.Intepreter.ILTypeInstance instance) (at <00000000000000000000000000000000>:0)
+System.Threading.ContextCallback.Invoke (System.Object state) (at <00000000000000000000000000000000>:0)
+System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) (at <00000000000000000000000000000000>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () (at <00000000000000000000000000000000>:0)
+System.Action.Invoke () (at <00000000000000000000000000000000>:0)
+System.Threading.ContextCallback.Invoke (System.Object state) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.Task.FinishContinuations () (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) (at <00000000000000000000000000000000>:0)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding.SetResult_5 (ILRuntime.Runtime.Intepreter.ILIntepreter __intp, ILRuntime.Runtime.Stack.StackObject* __esp, System.Collections.Generic.IList`1[T] __mStack, ILRuntime.CLR.Method.CLRMethod __method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate.Invoke (ILRuntime.Runtime.Intepreter.ILIntepreter intp, ILRuntime.Runtime.Stack.StackObject* esp, System.Collections.Generic.IList`1[T] mStack, ILRuntime.CLR.Method.CLRMethod method, System.Boolean isNewObj) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Execute (ILRuntime.CLR.Method.ILMethod method, ILRuntime.Runtime.Stack.StackObject* esp, System.Boolean& unhandledException) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Intepreter.ILIntepreter.Run (ILRuntime.CLR.Method.ILMethod method, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.AppDomain.Invoke (ILRuntime.CLR.Method.IMethod m, System.Object instance, System.Object[] p) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo.Invoke (ILRuntime.Runtime.Intepreter.ILTypeInstance instance) (at <00000000000000000000000000000000>:0)
+System.Threading.ContextCallback.Invoke (System.Object state) (at <00000000000000000000000000000000>:0)
+System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) (at <00000000000000000000000000000000>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () (at <00000000000000000000000000000000>:0)
+System.Action.Invoke () (at <00000000000000000000000000000000>:0)
+System.Threading.ContextCallback.Invoke (System.Object state) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.Task.FinishContinuations () (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) (at <00000000000000000000000000000000>:0)
+System.Threading.Tasks.TaskCompletionSource`1[TResult].TrySetResult (TResult result) (at <00000000000000000000000000000000>:0)
+System.Action`1[T].Invoke (T obj) (at <00000000000000000000000000000000>:0)
+Model.AssetManage+<LoadJsonTxt>d__7.MoveNext () (at <00000000000000000000000000000000>:0)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <00000000000000000000000000000000>:0)
+ILRuntime.Runtime.Generated.UnityEngine_GameObject_Binding:SetActive_7(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(TStateMachine&)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding:Start_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+Model.<LoadJsonTxt>d__7:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:51
+[Type]:Log
+PXRLog XR Platform----SDK Version:2.0.5.4
+[Stack trace]:Unity.XR.PXR.PXR_Manager:Awake()
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+ILRuntime.Runtime.Generated.UnityEngine_Object_Binding:Instantiate_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:51
+[Type]:Log
+PXRLog XR Platform----SDK logLevel:4
+[Stack trace]:Unity.XR.PXR.PXR_Manager:Awake()
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+ILRuntime.Runtime.Generated.UnityEngine_Object_Binding:Instantiate_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Log
+添加网络观察者 202:System.Action`1[ILRuntime.Runtime.Intepreter.ILTypeInstance]
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.SockectApiUtil.AddProtoHandle(System.Action`1[[ILRuntime.Runtime.Intepreter.ILTypeInstance, ILRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] handle, System.Boolean haveLog) 
+at HotUpdate.VRController.InitEvent() 
+at HotUpdate.VRController.Init() 
+at HotUpdate.CreatChildTool/<CreateChildAsync>d__0`1<HotUpdate.PicoController>.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Log
+ime create
+[Stack trace]:SGIme:Create(ImeDelegateBase)
+ImeManager:get_mIme()
+ImeManager:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Log
+预加载shader！
+===========================
+IL_009d: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.SceneBase/<loadShader>d__10.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+AndroidJavaException: java.lang.NullPointerException: Attempt to read from null array
+[Stack trace]:java.lang.NullPointerException: Attempt to read from null array
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.flipBuffer(RenderProxyUnity.java:76)
+com.sohu.inputmethod.sogou.sgrenderproxy.RenderProxyUnity.getTextureData(RenderProxyUnity.java:31)
+com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+com.unity3d.player.UnityPlayer.access$600(Unknown Source:0)
+com.unity3d.player.UnityPlayer$g$1.handleMessage(Unknown Source:150)
+android.os.Handler.dispatchMessage(Handler.java:103)
+android.os.Looper.loop(Looper.java:220)
+com.unity3d.player.UnityPlayer$g.run(Unknown Source:20)
+UnityEngine.AndroidJNISafe.CheckException () (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJNISafe.CallObjectMethod (System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args) (at <00000000000000000000000000000000>:0)
+UnityEngine.AndroidJavaObject._Call[ReturnType] (System.String methodName, System.Object[] args) (at <00000000000000000000000000000000>:0)
+SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:52
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+http://localhost:13211/miaoda/miaoda/init Headers = 
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.HttpRequestUntil.SetGlobalRequestHeader(UnityEngine.Networking.UnityWebRequest webRequest, System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] headers) 
+at HotUpdate.HttpRequestUntil/<Post_Rator>d__5.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Binding:Start_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Int64_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Int64_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+System.Action`1:Invoke(T)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+http://localhost:13211/miaoda/miaoda/init
+参数:
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.HttpRequestUntil/<Post_Rator>d__5.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Binding:Start_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Int64_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Int64_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+System.Action`1:Invoke(T)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+http://localhost:13211/miaoda/miaoda/init请求失败:
+NetworkError-Cannot connect to destination host
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.HttpRequestUntil/<Post_Rator>d__5.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+添加网络观察者 405:System.Action`1[ILRuntime.Runtime.Intepreter.ILTypeInstance]
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.SockectApiUtil.AddProtoHandle(System.Action`1[[ILRuntime.Runtime.Intepreter.ILTypeInstance, ILRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] handle, System.Boolean haveLog) 
+at HotUpdate.VoiceChatTool.Init() 
+at HotUpdate.AppHotUpdate/<InitReady>d__14.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+添加网络观察者 407:System.Action`1[ILRuntime.Runtime.Intepreter.ILTypeInstance]
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.SockectApiUtil.AddProtoHandle(System.Action`1[[ILRuntime.Runtime.Intepreter.ILTypeInstance, ILRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] handle, System.Boolean haveLog) 
+at HotUpdate.VoiceChatTool.Init() 
+at HotUpdate.AppHotUpdate/<InitReady>d__14.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+添加网络观察者 411:System.Action`1[ILRuntime.Runtime.Intepreter.ILTypeInstance]
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.SockectApiUtil.AddProtoHandle(System.Action`1[[ILRuntime.Runtime.Intepreter.ILTypeInstance, ILRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] handle, System.Boolean haveLog) 
+at HotUpdate.FriendTool.InitNotifyAddProtoHandle() 
+at HotUpdate.AppHotUpdate/<InitReady>d__14.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+添加网络观察者 412:System.Action`1[ILRuntime.Runtime.Intepreter.ILTypeInstance]
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.SockectApiUtil.AddProtoHandle(System.Action`1[[ILRuntime.Runtime.Intepreter.ILTypeInstance, ILRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] handle, System.Boolean haveLog) 
+at HotUpdate.FriendTool.InitNotifyAddProtoHandle() 
+at HotUpdate.AppHotUpdate/<InitReady>d__14.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+添加网络观察者 413:System.Action`1[ILRuntime.Runtime.Intepreter.ILTypeInstance]
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.SockectApiUtil.AddProtoHandle(System.Action`1[[ILRuntime.Runtime.Intepreter.ILTypeInstance, ILRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]] handle, System.Boolean haveLog) 
+at HotUpdate.FriendTool.InitNotifyAddProtoHandle() 
+at HotUpdate.AppHotUpdate/<InitReady>d__14.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+https://meta-lpserver.vivedm.com:9470/general-lpserver/tokenSecret/getToken Headers = 
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.HttpRequestUntil.SetGlobalRequestHeader(UnityEngine.Networking.UnityWebRequest webRequest, System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] headers) 
+at HotUpdate.HttpRequestUntil/<Post_Rator>d__5.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_Boolean_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.MethodDelegateAdapter`1:InvokeILMethod(T1)
+System.Action`1:Invoke(T)
+ILRuntime.Runtime.Generated.System_Action_1_ILTypeInstance_Binding:Invoke_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+https://meta-lpserver.vivedm.com:9470/general-lpserver/tokenSecret/getToken
+参数:account=123456&password=123456
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.HttpRequestUntil/<Post_Rator>d__5.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ILRuntime.Runtime.Generated.UnityEngine_MonoBehaviour_Binding:StartCoroutine_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Binding:SetResult_5(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_Boolean_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.MethodDelegateAdapter`1:InvokeILMethod(T1)
+System.Action`1:Invoke(T)
+ILRuntime.Runtime.Generated.System_Action_1_ILTypeInstance_Binding:Invoke_0(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Action`1:Invoke(T)
+DelegateList`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Warning
+AndroidJNIHelper: converting from Byte array is obsolete, use SByte array instead
+[Stack trace]:UnityEngine.AndroidJavaObject:_Call(String, Object[])
+SGIme:Draw(Texture2D)
+ImeDelegateImpl_kbd:Update()
+
+[Time]:2026/05/11 11:40:53
+[Type]:Exception
+NullReferenceException: Object reference not set to an instance of an object.
+[Stack trace]:SGIme.Draw (UnityEngine.Texture2D tex) (at <00000000000000000000000000000000>:0)
+ImeDelegateImpl_kbd.Update () (at <00000000000000000000000000000000>:0)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+https://meta-lpserver.vivedm.com:9470/general-lpserver/tokenSecret/getToken请求结果:
+{
+  "code" : 200,
+  "message" : "操作成功",
+  "data" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsb2dpbl91c2VyIiwibG9naW5fdXNlciI6MTk1NiwiaXNzIjoiYWRtaW4iLCJpYXQiOjE3Nzg0NzA4NTMsImp0aSI6InRva2VuSWQifQ.5pVBLWMsh1jV_h7HS6JZ72nqJT-WpfzPWyOqCeO2ObU"
+}
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.HttpRequestUntil/<Post_Rator>d__5.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+准备登陆场景
+===========================
+IL_0017: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.LogStreamTool.Log(System.String log) 
+at HotUpdate.AppHotUpdate.IntoLogin() 
+at HotUpdate.AppHotUpdate/<>c/<<InitHome>b__22_0>d.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Binding:Start_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Binding:Start_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+ILRuntime.Runtime.Generated.System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Binding:Start_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Time]:2026/05/11 11:40:53
+[Type]:Log
+销毁非热更日志LogToFile！
+===========================
+IL_0462: call System.Void UnityEngine.Debug::Log(System.Object)
+at HotUpdate.AppHotUpdate/<InitReady>d__14.MoveNext() 
+
+[Stack trace]:ILRuntime.Runtime.Generated.UnityEngine_Debug_BindingEx:Log_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.CrossBindingMethodInfo:Invoke(ILTypeInstance)
+System.Threading.Tasks.TaskCompletionSource`1:SetResult(TResult)
+ILRuntime.Runtime.Generated.System_Threading_Tasks_TaskCompletionSource_1_ILTypeInstance_Binding:SetResult_1(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Enviorment.CLRRedirectionDelegate:Invoke(ILIntepreter, StackObject*, IList`1, CLRMethod, Boolean)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvokeSub(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.DelegateAdapter:ILInvoke(ILIntepreter, StackObject*, IList`1)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Execute(ILMethod, StackObject*, Boolean&)
+ILRuntime.Runtime.Intepreter.ILIntepreter:Run(ILMethod, Object, Object[])
+ILRuntime.Runtime.Enviorment.AppDomain:Invoke(IMethod, Object, Object[])
+Model.Adaptor:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
